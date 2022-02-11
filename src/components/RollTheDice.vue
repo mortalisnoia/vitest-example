@@ -25,6 +25,7 @@ export default {
     function roll() {
       dice.value = Math.floor(Math.random() * Math.floor(5)) + 1;
       rolls.value.unshift(dice.value);
+      console.log('foi chamado!');
     }
 // ##005: implement restart function (inside setup() )
     function restart() {

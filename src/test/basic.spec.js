@@ -1,5 +1,6 @@
 import { mount } from '@vue/test-utils';
 import app from '../App.vue'
+import rollDice from '../components/RollTheDice.vue'
 import { afterEach, describe, expect, it, vi} from 'vitest';
 
 const rollButton = '#roll';
